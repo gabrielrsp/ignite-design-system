@@ -1,6 +1,13 @@
 import { styled } from '../../styles'
 import { Text } from '../Text'
 
+/*
+
+  No Storybook somente conseguimos estilizar componentes que são gerados 
+  a partir da função styled do stitches.
+
+*/
+
 export const MultiStepContainer = styled('div', {})
 
 export const Label = styled(Text, {
@@ -27,7 +34,7 @@ export const Step = styled('div', {
   variants: {
     active: {
       true: {
-        backgroundColor: '$gray100',
+        backgroundColor: '$gray100 ',
       },
     },
   },

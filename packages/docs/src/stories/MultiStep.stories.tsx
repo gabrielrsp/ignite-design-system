@@ -1,6 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { Box, MultiStep, MultiStepProps } from '@ignite-ui/react'
 
+/*
+
+No storybooks, podemos adicionar uma propriedade `story` nos parametros do Story
+para adicionar contexto adicional ao funcionamento do
+
+*/
 export default {
   title: 'Form/Multi Step',
   component: MultiStep,

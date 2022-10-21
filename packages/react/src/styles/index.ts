@@ -9,6 +9,8 @@ import {
 } from '@ignite-ui/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
+// No Storybook somente conseguimos estilizar componentes que são gerados a partir da função styled do stitches.
+
 // INTEGRAÇÃO DE TOKENS PARA CSS IN JS
 export const {
   styled,
