@@ -18,3 +18,5 @@ export function TextInput({ prefix, ...props }: TextInputProps) {
     </TextInputContainer>
   )
 }
+
+TextInput.displayName = 'TextInput' // definição do nome que irá aparecer no storybook

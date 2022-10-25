@@ -31,3 +31,5 @@ export const TextArea = styled('textarea', {
 })
 
 export interface TextAreaProps extends ComponentProps<typeof TextArea> {}
+
+TextArea.displayName = 'TextArea' // definição do nome que irá aparecer no storybook

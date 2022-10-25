@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/gabrielrsp.png',
     alt: 'Gabriel Rodrigues',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 // Button variants

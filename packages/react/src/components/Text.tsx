@@ -37,3 +37,5 @@ export interface TextProps extends ComponentProps<typeof Text> {
 /**
  *  agora podemos fazer por exemplo <Text size="lg" >
  */
+
+Text.displayName = 'Text' // definição do nome que irá aparecer no storybook

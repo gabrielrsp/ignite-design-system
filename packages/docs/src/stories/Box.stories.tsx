@@ -11,6 +11,13 @@ export default {
       </>
     ),
   },
+  argTypes: {
+    children: {
+      control: {
+        type: null, // no control for this component
+      },
+    },
+  },
 } as Meta<BoxProps>
 
 // Button variants

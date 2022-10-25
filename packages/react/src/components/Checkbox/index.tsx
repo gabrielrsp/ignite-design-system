@@ -16,3 +16,5 @@ export function Checkbox(props: CheckboxProps) {
 }
 
 // OBS: A prop asChild faz com que o elemento se comporte como um fragment
+
+Checkbox.displayName = 'Checkbox' // definição do nome que irá aparecer no storybook

@@ -35,3 +35,5 @@ export function MultiStep({ size, currentStep = 1 }: MultiStepProps) {
  então será retornado i + 1  -> [1,2,3,4]  //se size for 4
 
 */
+
+MultiStep.displayName = 'MultiStep' // definição do nome que irá aparecer no storybook

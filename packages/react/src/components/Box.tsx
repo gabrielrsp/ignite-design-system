@@ -11,3 +11,5 @@ export const Box = styled('div', {
 export interface BoxProps extends ComponentProps<typeof Box> {
   as?: ElementType
 }
+
+Box.displayName = 'Box' // definição do nome que irá aparecer no storybook

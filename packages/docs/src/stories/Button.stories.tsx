@@ -7,6 +7,32 @@ export default {
   component: Button,
   args: {
     children: 'Send',
+    variant: 'primary',
+    size: 'md',
+    disabled: false,
+  },
+  argTypes: {
+    // argTypes sao controles disponibilizados para o usuario
+    variant: {
+      options: ['primary', 'secondary', 'tertiary'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+    size: {
+      options: ['sm', 'md'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+    disabled: {
+      control: {
+        type: 'boolean',
+      },
+    },
+    onClick: {
+      action: 'click', // gerando log da action realizada. Também pode ser usado para eventos não nativos, criados dentro de um componente no react
+    },
   },
 } as Meta<ButtonProps>
 

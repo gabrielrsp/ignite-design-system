@@ -29,7 +29,7 @@ export const Button = styled('button', {
   },
 
   variants: {
-    // variant é será da propriedade pra setar variante do button
+    // variant é será da propriedade criada pra setar variantes do button
     variant: {
       primary: {
         color: '$white',
@@ -55,7 +55,8 @@ export const Button = styled('button', {
         },
 
         '&:disabled': {
-          backgroundColor: '$gray200',
+          backgroundColor: 'transparent',
+          color: '$gray200',
           borderColor: '$gray200',
         },
       },
@@ -94,3 +95,5 @@ export const Button = styled('button', {
 export interface ButtonProps extends ComponentProps<typeof Button> {
   as?: ElementType
 }
+
+Button.displayName = 'Button' // definição do nome que irá aparecer no storybook
