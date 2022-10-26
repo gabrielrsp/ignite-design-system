@@ -9,8 +9,8 @@ export * from './line-heights'
 export * from './radii'
 export * from './space'
 
-// import { colors } from '@ignite-ui/tokens/colors
-// import { colors } from '@ignite-ui/tokens    <<<<<<<<<<<
+// import { colors } from '@sk8-ignite-ui/tokens/colors
+// import { colors } from '@sk8-ignite-ui/tokens    <<<<<<<<<<<
 
 /**
  * PODEMOS CRIAR OUTROS TOKENS PARA:

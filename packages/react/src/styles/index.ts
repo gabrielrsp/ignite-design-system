@@ -6,7 +6,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@ignite-ui/tokens'
+} from '@sk8-ignite-ui/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 // No Storybook somente conseguimos estilizar componentes que são gerados a partir da função styled do stitches.
