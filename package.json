@@ -7,7 +7,7 @@
     "dev": "turbo run dev --parallel",
     "build": "turbo run build",
     "changeset": "changeset",
-    "version-packages": " ",
+    "version-packages": "changeset version",
     "release": "turbo run build --filter=@sk8-ignite-ui/packages/docs && changeset publish"
   },
   "devDependencies": {
